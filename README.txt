@@ -22,11 +22,10 @@ CREATE TABLE perros (
 ---Compilacion del back (Python)
 Para poder compilar el backend se debe de levantar el entorno virtual los siguientes comando sirven para su creacion,
 de igual forma en las carpetas se adjunta el entorno virtual que se uso
-paso 1: pip3 install virtualenv
-paso 2: virtualenv <nombre del entorno>
-paso 3: cd <nombre del entorno>
-paso 4: cd Script
-paso 5: source activate
+paso 1:  python3 -m venv nombreSeleccionado
+paso 2: cd <nombre del entorno>
+paso 3: cd Script
+paso 4: source activate
 
 Despues de activar el entorno virtual, se debe dirigir a la ruta del backend y escribir el siguiente comando para activarlo
 
