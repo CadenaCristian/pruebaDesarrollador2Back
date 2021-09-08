@@ -32,6 +32,35 @@ Despues de activar el entorno virtual, se debe dirigir a la ruta del backend y e
 
 $ python manage.py runserver 127.0.0.1:8000
 
+- en caso de que error por alguna libreria, se adjunta el listado de las librerias y dependencias que se usaron, todas se instalan usando
+el comando pip install <nombre de la libreria>
+asgiref==3.4.1
+autopep8==1.5.6
+backports.entry-points-selectable==1.1.0
+certifi==2021.5.30
+charset-normalizer==2.0.4
+distlib==0.3.2
+Django==3.2.7
+django-cors-headers==3.8.0
+filelock==3.0.12
+idna==3.2
+platformdirs==2.2.0
+pycodestyle==2.7.0
+pyodbc==4.0.32
+pytz==2021.1
+requests==2.26.0
+six==1.16.0
+sqlparse==0.4.1
+toml==0.10.2
+urllib3==1.26.6
+virtualenv==20.7.2
+
+- tambien se adjuntan los comando de las 4 librerias que abarcan la mayoria de las anteriores ya mencionadas
+pip install django
+pip install django-cors-headers
+pip install pyodbc
+pip install requests
+
 - Cabe recalcar que se deben cambiar las variables de conexion a la base de datos, esos datos dependen de que tipo de autenticación credenciales 
 use para acceder a sql server
 
